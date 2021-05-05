@@ -41,40 +41,40 @@ async function getBackgroundImg(){
         var datetime = responseJSON.datetime;
          hour = datetime.slice(11,13);
         
-        if(hour>=0600 && hour<=0800){
+        if(hour>=06 && hour<=08){
             bg = "sunrise1.png";
         }
-        if(hour>=0800 && hour<=1000){
+        if(hour>=08 && hour<=10){
             bg = "sunrise2.png";
         };
-        if(hour>=1000 && hour<=1200){
+        if(hour>=10 && hour<=12){
             bg = "sunrise3.png";
         };
-        if(hour>=1200 && hour<=1400){
+        if(hour>=12 && hour<=14){
             bg = "sunrise4.png";
         }
-        if(hour>=01600 && hour<=1800){
+        if(hour>=16 && hour<=18){
             bg = "sunrise5.png";
         }
-        if(hour>=1800 && hour<=1850){
+        if(hour>=18 && hour<=19){
             bg = "sunrise6.png";
         }
-        if(hour>=1850&& hour<=2050){
+        if(hour>=19&& hour<=20){
             bg = "sunset7.png";
         }
-        if(hour>=2050 && hour<=2250){
+        if(hour>=20 && hour<=22){
             bg = "sunrise8.png";
         }
-        if(hour>=2250 && hour<=0050){
+        if(hour>=22 && hour<=01){
             bg = "sunset9.png";
         };
-        if(hour>=0050 && hour<=0250){
+        if(hour>=01 && hour<=02){
             bg = "sunset10.png";
         }
-        if(hour>=0250 && hour<=0450){
+        if(hour>=02 && hour<=04){
             bg = "sunset11.png";
         }
-        if(hour>=0450 && hour<=0600){
+        if(hour>=04 && hour<=06){
             bg = "sunrise1.png";
         }
     
